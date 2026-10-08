@@ -10,8 +10,7 @@
 <body class="bg-light">
 <nav class="navbar navbar-dark bg-primary">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="${pageContext.request.contextPath}/events/list">📡 CampusRadar</a>
-    <span class="navbar-text">
+   <a class="navbar-brand fw-bold" href="${pageContext.request.contextPath}/events/list">&#128225; CampusRadar</a>
       <c:if test="${not empty sessionScope.user}">Hi, <c:out value="${sessionScope.user.name}"/> (${sessionScope.user.role})</c:if>
     </span>
   </div>
